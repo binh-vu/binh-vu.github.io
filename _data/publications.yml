@@ -1,12 +1,25 @@
 - id: sm-www19
   title: Learning Semantic Models of Data Sources Using Probabilistic Graphical Models
-  url: https://www.dropbox.com/s/3pmtbm1p5xtzn9m/www-p1944-vu.pdf?dl=0
+  url: /assets/publications/www-p1944-vu.pdf
   authors_pre: ""
   authors_pos: ", Craig Knoblock, and Jay Pujara"
   published_in: In Proceeding WWW '19 The World Wide Web Conference, 2019
 - id: drepr-kcap19
   title: "D-REPR: A Language for Describing and Mapping Diversely-Structured Data Sources to RDF"
-  url: https://www.dropbox.com/s/54kdwi2b3b3mqcq/kcap-19.pdf?dl=0
+  url: /assets/publications/kcap-19.pdf
   authors_pre: ""
   authors_pos: ", Jay Pujara, and Craig Knoblock"
   published_in: In Proceeding K-CAP '19 Proceedings of the Knowledge Capture Conference, 2019
+- id: grams-iswc21
+  title: A Graph-based Approach for Inferring Semantic Descriptions of Wikipedia Tables
+  url: /assets/publications/iswc21.pdf
+  authors_pre: ""
+  authors_pos: ", Craig Knoblock, Pedro Szekely, Minh Pham and Jay Pujara"
+  published_in: In Proceeding ISWC '21 International Semantic Web Conference, 2021
+- id: sand-eswc22
+  title: SAND: A Tool for Creating Semantic Descriptions of Tabular Sources
+  url: /assets/publications/eswc22.pdf
+  authors_pre: ""
+  authors_pos: "and Craig Knoblock"
+  published_in: Demo at ESWC '22 European Semantic Web Conference, 2022
+

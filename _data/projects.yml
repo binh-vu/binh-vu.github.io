@@ -1,4 +1,18 @@
-- name: Dataset Representation Language for Reading Heterogeneous Datasets
+- name: "SAND: A Tool for Creating Semantic Descriptions of Structured Sources"
+  descriptions: Building semantic descriptions of tables is a vital step in data integration. However, this task is expensive and time-consuming as users often need to examine the table data, its metadata, and ontologies to find the most appropriate description. In this paper, we present SAND, a tool for creating semantic descriptions semi-automatically. SAND makes it easy to integrate with semantic modeling systems to predict or suggest semantic descriptions to the users, as well as to use different knowledge graphs (KGs).  esides its modeling capabilities, SAND is equipped with browsing/querying tools to enable users to explore data in the table and discover how it is often modeled in KGs.
+  links:
+    - name: Paper
+      url: /#sand-eswc22
+    - name: Github
+      url: https://github.com/usc-isi-i2/sand
+- name: A Graph-based Approach for Inferring Semantic Descriptions of Wikipedia Tables
+  descriptions: There are millions of high-quality tables available in Wikipedia. These tables cover many domains and contain useful information. To make use of these tables for data discovery or data integration, we need precise descriptions of the concepts and relationships in the data, known as semantic descriptions. However, creating semantic descriptions is a complex process requiring considerable manual effort and can be error prone. In this paper, we present a novel probabilistic approach for automatically building semantic descriptions of Wikipedia tables. Our approach leverages hyperlinks in a Wikipedia table and existing knowledge in Wikidata to construct a graph of possible relationships in the table and its context, and then it uses collective inference to distinguish genuine and spurious relationships to form the final semantic description. In contrast to existing methods, our solution can handle tables that require complex semantic descriptions of n-ary relations (e.g., the population of a country in a particular year) or implicit contextual values to describe the data accurately. In our empirical evaluation, our approach outperforms state-of-the-art systems on the SemTab2020 dataset and outperforms those systems by as much as 28% in F1 score on a large set of Wikipedia tables.
+  links:
+    - name: Paper
+      url: /#grams-iswc21
+    - name: Github
+      url: https://github.com/usc-isi-i2/grams
+- name: Dataset Representation Language for Reading Heterogeneous Datasets to RDF or JSON
   image: /assets/homepage/projects/drepr-kcap19.png
   descriptions:
     - Reading public datasets is a laborious task and frequently requires to write custom code because data are often stored in many different formats (CSV, JSON, Spreadsheet, NetCDF, etc) with different layouts (row-based, matrix, hierarchy).
@@ -14,10 +28,10 @@
     - The problem is to automatically build semantic descriptions of data for publishing structured sources to knowledge graphs.
     - We use beam search to generate possible candidate semantic models and a probabilistic graphical model as a scoring function to guide the search.
   links:
-  - name: Paper
-    url: /#sm-www19
-  - name: Github
-    url: https://github.com/binh-vu/semantic-modeling
+    - name: Paper
+      url: /#sm-www19
+    - name: Github
+      url: https://github.com/binh-vu/semantic-modeling
 - name: From Sketches to HTML/CSS Code
   image: /assets/20190427-sketch2code/demo.gif
   description: Using Deep Learning to synthesize HTML/CSS programs from mock-up UIs (Course Project)
