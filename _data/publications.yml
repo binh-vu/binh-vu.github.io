@@ -4,21 +4,31 @@
   authors_pre: ""
   authors_pos: ", Craig Knoblock, and Jay Pujara"
   published_in: In Proceeding WWW '19 The World Wide Web Conference, 2019
+  extra: []
 - id: drepr-kcap19
   title: "D-REPR: A Language for Describing and Mapping Diversely-Structured Data Sources to RDF"
   url: /assets/publications/kcap-19.pdf
   authors_pre: ""
   authors_pos: ", Jay Pujara, and Craig Knoblock"
   published_in: In Proceeding K-CAP '19 Proceedings of the Knowledge Capture Conference, 2019
+  extra: []
 - id: grams-iswc21
   title: A Graph-based Approach for Inferring Semantic Descriptions of Wikipedia Tables
   url: /assets/publications/iswc21.pdf
   authors_pre: ""
   authors_pos: ", Craig Knoblock, Pedro Szekely, Minh Pham and Jay Pujara"
   published_in: In Proceeding ISWC '21 International Semantic Web Conference, 2021
+  extra:
+    - name: Link
+      url: https://link.springer.com/chapter/10.1007/978-3-030-88361-4_18
+    - name: Paper
+      url: /assets/publications/iswc21.pdf
+    - name: Video
+      url: http://videolectures.net/iswc2021_4b_wikipedia_tables/
 - id: sand-eswc22
   title: "SAND: A Tool for Creating Semantic Descriptions of Tabular Sources"
   url: /assets/publications/eswc22.pdf
   authors_pre: ""
-  authors_pos: "and Craig Knoblock"
+  authors_pos: " and Craig Knoblock"
   published_in: Demo at ESWC '22 European Semantic Web Conference, 2022
+  extra: []

@@ -81,20 +81,25 @@ I am generally interested in machine learning, mainly focusing on techniques for
 ### Selected Publications
 
 {% for paper in site.data.publications %}
+
 - <a id="{{ paper.id }}" name="{{ paper.id }}"></a>[**{{ paper.title }}**]({{ paper.url }})<br/>
 {{ paper.authors_pre }}**Binh Vu**{{ paper.authors_pos }}<br/>
 {{ paper.published_in }}
+<div>
+{% for link in paper.extra %}
+[{{ link.name }}]({{ link.url }})&nbsp;
 {% endfor %}
+</div>
 
 ### Awards
 
 - **National Science Foundation sponsored Student Travel Awards**<br/>
-2019, The 18th International Semantic Web Conference
+  2019, The 18th International Semantic Web Conference
 - **National Science Foundation sponsored Student Travel Awards**<br/>
-2017, The 16th International Semantic Web Conference
+  2017, The 16th International Semantic Web Conference
 - **ISI Distinguished Top-Off Fellowship**<br/>
-2016, USC - ISI
+  2016, USC - ISI
 - **Vietnam Education Foundation (VEF) Fellowship to pursue Ph.D. degree in the U.S**<br/>
-2016
+  2016
 - **Outstanding Honor Student Award**<br/>
-2011 - 2014, HCMC University of Technology
+  2011 - 2014, HCMC University of Technology
