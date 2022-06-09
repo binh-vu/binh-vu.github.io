@@ -17,9 +17,8 @@
   authors_pos: ", Craig Knoblock, Pedro Szekely, Minh Pham and Jay Pujara"
   published_in: In Proceeding ISWC '21 International Semantic Web Conference, 2021
 - id: sand-eswc22
-  title: SAND: A Tool for Creating Semantic Descriptions of Tabular Sources
+  title: "SAND: A Tool for Creating Semantic Descriptions of Tabular Sources"
   url: /assets/publications/eswc22.pdf
   authors_pre: ""
   authors_pos: "and Craig Knoblock"
   published_in: Demo at ESWC '22 European Semantic Web Conference, 2022
-
