@@ -82,14 +82,12 @@ I am generally interested in machine learning, mainly focusing on techniques for
 
 {% for paper in site.data.publications %}
 
-- <a id="{{ paper.id }}" name="{{ paper.id }}"></a>[**{{ paper.title }}**]({{ paper.url }})<br/>
-{{ paper.authors_pre }}**Binh Vu**{{ paper.authors_pos }}<br/>
-{{ paper.published_in }}
-<div>
-{% for link in paper.extra %}
-[{{ link.name }}]({{ link.url }})&nbsp;
-{% endfor %}
-</div>
+- <a id="{{ paper.id }}" name="{{ paper.id }}"></a>**{{ paper.title }}**<br/>
+  {{ paper.authors_pre }}**Binh Vu**{{ paper.authors_pos }}<br/>
+  {{ paper.published_in }}<br />
+  {% for link in paper.extra %}
+  <a href="{{ link.url }}">{{ link.name }}</a>&nbsp;
+  {% endfor %}
 
 {% endfor %}
 
