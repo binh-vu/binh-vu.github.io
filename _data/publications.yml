@@ -17,7 +17,9 @@
     - name: Link
       url: https://dl.acm.org/doi/abs/10.1145/3360901.3364449
     - name: Paper
-      url: /assets/publications/kcap-19.pdf
+      url: /assets/publications/kcap19-paper.pdf
+    - name: Slides
+      url: /assets/publications/kcap19-slides.pdf
 - id: grams-iswc21
   title: A Graph-based Approach for Inferring Semantic Descriptions of Wikipedia Tables
   authors_pre: ""
