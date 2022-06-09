@@ -91,6 +91,8 @@ I am generally interested in machine learning, mainly focusing on techniques for
 {% endfor %}
 </div>
 
+{% endfor %}
+
 ### Awards
 
 - **National Science Foundation sponsored Student Travel Awards**<br/>
