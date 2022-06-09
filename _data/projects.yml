@@ -1,4 +1,5 @@
 - name: "SAND: A Tool for Creating Semantic Descriptions of Structured Sources"
+  image: /assets/homepage/projects/sand-eswc22.png
   descriptions: Building semantic descriptions of tables is a vital step in data integration. However, this task is expensive and time-consuming as users often need to examine the table data, its metadata, and ontologies to find the most appropriate description. In this paper, we present SAND, a tool for creating semantic descriptions semi-automatically. SAND makes it easy to integrate with semantic modeling systems to predict or suggest semantic descriptions to the users, as well as to use different knowledge graphs (KGs).  esides its modeling capabilities, SAND is equipped with browsing/querying tools to enable users to explore data in the table and discover how it is often modeled in KGs.
   links:
     - name: Paper

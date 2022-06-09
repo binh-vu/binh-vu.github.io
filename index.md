@@ -85,7 +85,7 @@ I am generally interested in machine learning, mainly focusing on techniques for
 - <a id="{{ paper.id }}" name="{{ paper.id }}"></a>**{{ paper.title }}**<br/>
   {{ paper.authors_pre }}**Binh Vu**{{ paper.authors_pos }}<br/>
   {{ paper.published_in }}<br />
-  {% for link in paper.extra %}<a href="{{ link.url }}" style="margin-right: 4px;">{{ link.name }}</a>{% endfor %}
+  {% for link in paper.extra %}<a href="{{ link.url }}" style="margin-right: 8px;" target="_blank">{{ link.name }}</a>{% endfor %}
 
 {% endfor %}
 
