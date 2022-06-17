@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <style>
+      html, body {
+        height: 100%;
+        background-color: rgb(38, 38, 46);
+      }
+      .main {
+        height: 100%;
+        padding-top: 24px;
+        text-align: center;
+        color: #31c48d;
+      }
+
+      .nav {
+        margin: 0 12px;
+      }
+      .nav .nav-link {
+        color: #31c48d;
+      }
+      .nav .nav-link.active {
+        background-color: #31c48d;
+      }
+
+      #counter-container, #timer-container {
+        height: 100%;
+      }
+      #counter-container h1, #timer-container h1 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+      }
+      #counter-container h1 {
+        font-size: 36vw;
+      }
+      #timer-container h1 {
+        font-size: 14vw;
+      }
+      #timer-container {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-sm main">
+      <div class="row">
+        <div class="col">
+          <nav class="nav nav-pills nav-fill">
+            <a id="counter" class="nav-link active" aria-current="page" href="#"
+              >Counter</a
+            >
+            <a id="timer" class="nav-link" href="#">Timer</a>
+          </nav>
+        </div>
+      </div>
+      <div class="row" id="counter-container">
+        <div class="col">
+          <h1>0</h1>
+        </div>
+      </div>
+      <div class="row" id="timer-container">
+        <div class="col">
+          <h1>00:00:00.000</h1>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+      window.start = Date.now();
+      window.interval = 0;
+      window.timer = undefined;
+      function startTimer() {
+        window.timer = setTimeout(function () {
+          let now = Date.now();
+          let interval = now - window.start + window.interval;
+          setTimer(interval);
+          startTimer();
+        }, 50);
+      }
+
+      window.announcedTime = undefined;
+      function setTimer(interval) {
+        let seconds = Math.floor(interval / 1000);
+        let minutes = Math.floor(seconds / 60);
+        let hours = Math.floor(minutes / 60);
+        let timeString = `${hours.toString().padStart(2, "0")}:${(minutes % 60)
+            .toString()
+            .padStart(2, "0")}:${(seconds % 60)
+            .toString()
+            .padStart(2, "0")}.${(interval % 1000).toString().padStart(3, "0")}`;
+
+        $("#timer-container h1").text(timeString);
+        
+        if (seconds > 0 && seconds % 10 === 0 && seconds <= 120 && (window.announcedTime === undefined || window.announcedTime !== seconds)) {
+          // only speak for the first 2 minutes
+          var msg = new SpeechSynthesisUtterance(`${seconds} seconds`);
+          msg.lang = 'en-US';
+          window.speechSynthesis.speak(msg);
+          window.announcedTime = seconds;
+        }
+      }
+
+      $(function () {
+        // toggle app
+        $("#counter").click(function () {
+          $("#counter-container").show();
+          $("#timer-container").hide();
+          $("#counter").addClass("active");
+          $("#timer").removeClass("active");
+
+          $("#counter-container h1").text(0);
+
+          if (window.timer !== undefined) {
+            clearTimeout(window.timer);
+            window.timer = undefined;
+          }
+        });
+        $("#timer").click(function () {
+          $("#counter-container").hide();
+          $("#timer-container").show();
+          $("#counter").removeClass("active");
+          $("#timer").addClass("active");
+
+          window.start = undefined;
+          window.interval = 0;
+          window.announcedTime = undefined;
+          if (window.timer !== undefined) {
+            clearTimeout(window.timer);
+            window.timer = undefined;
+          }
+          setTimer(0);
+        });
+      
+        // counter app
+        $("#counter-container").click(function () {
+          let count = parseInt($("#counter-container h1").text().trim());
+          $("#counter-container h1").text(count + 1);
+
+          var msg = new SpeechSynthesisUtterance((count + 1).toString());
+          msg.lang = 'en-US';
+          window.speechSynthesis.speak(msg);
+        });
+        
+        $("#timer-container").click(function () {
+          if (window.timer === undefined) {
+            var msg = new SpeechSynthesisUtterance("start");
+            msg.lang = 'en-US';
+            window.speechSynthesis.speak(msg);
+            window.start = Date.now();
+            startTimer();
+          } else {
+            window.interval += Date.now() - window.start;
+            clearTimeout(window.timer);
+            window.timer = undefined;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
