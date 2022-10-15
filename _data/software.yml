@@ -1,0 +1,63 @@
+- name: "SAND: A Tool for Creating Semantic Descriptions of Structured Sources"
+  image: /assets/homepage/projects/sand-eswc22.png
+  description: A tool for creating semantic descriptions semi-automatically. SAND makes it easy to integrate with semantic modeling systems to predict or suggest semantic descriptions to the users, as well as to use different knowledge graphs (KGs). Besides its modeling capabilities, SAND is equipped with browsing/querying tools to enable users to explore data in the table and discover how it is often modeled in KGs.
+  links:
+    - name: Paper
+      url: /#sand-eswc22
+    - name: Github
+      url: https://github.com/usc-isi-i2/sand
+- name: Dataset Representation Language for Reading Heterogeneous Datasets to RDF or JSON
+  image: /assets/homepage/projects/drepr-kcap19.png
+  descriptions:
+    - Reading public datasets is a laborious task and frequently requires to write custom code because data are often stored in many different formats (CSV, JSON, Spreadsheet, NetCDF, etc) with different layouts (row-based, matrix, hierarchy).
+    - To address the problem, we create D-REPR, a language to represent heterogeneous datasets, and a very efficient D-REPR processor to read the datasets from their own formats to a common representation.
+  links:
+    - name: Paper
+      url: /#drepr-kcap19
+    - name: Github
+      url: https://github.com/usc-isi-i2/d-repr
+- name: KGData
+  description: Library to process dumps of knowledge graphs (Wikipedia, DBpedia, Wikidata)
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/kgdata
+- name: Hugedict
+  description: A drop-in replacement for dictionary objects that are too big to fit in memory
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/hugedict
+- name: Rsoup
+  description: A very fast library for web scraper that handles text correctly
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/rsoup
+- name: Ream
+  description: A simple actor architecture for research software
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/ream
+- name: PBT
+  description: A Python build tool for multi-projects
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/pbt
+- name: Gena
+  description: Framework to help to build (web) application faster.
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/gena
+- name: YADA
+  description: Yet Another Dataclass Argument Parser
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/yada
+- name: Streamlit Bridge
+  description: Streamlit components that allow client side (javascript) to send data to the server side (python) and render HTML content without being processed by Markdown.
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/streamlit-bridge
+- name: Timer
+  description: Timing Python code made easy
+  links:
+    - name: Github
+      url: https://github.com/binh-vu/timer
