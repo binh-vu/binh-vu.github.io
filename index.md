@@ -8,7 +8,7 @@ layout: default-container
   </div>
   <div class="col-md">
     <p>
-        <b>Ph.D. student</b> <br/>
+        <b>Ph.D.</b> <br/>
         Office ISI 1038 <br />
         Information Sciences Institute (ISI),
         University of Southern California <br/>
@@ -18,8 +18,8 @@ Marina del Rey, CA, 90292 <br/>
         <span style="line-height:1.3em; font-size: 1.3em">
         <a href="https://github.com/binh-vu"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/binh-v-3828a16a/"><i class="fab fa-linkedin"></i></a>
-        <b>[Resume](/assets/homepage/Resume_240612_v2.pdf)</b>
         </span>
+        <b><a href="/assets/homepage/Resume_240612_v2.pdf">Resume</a></b>
     </p>
   </div>
 </div>
