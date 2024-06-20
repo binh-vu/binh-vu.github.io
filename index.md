@@ -18,6 +18,7 @@ Marina del Rey, CA, 90292 <br/>
         <span style="line-height:1.3em; font-size: 1.3em">
         <a href="https://github.com/binh-vu"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/binh-v-3828a16a/"><i class="fab fa-linkedin"></i></a>
+        <b>[Resume](/assets/homepage/Resume_240612_v2.pdf)</b>
         </span>
     </p>
   </div>
@@ -25,9 +26,10 @@ Marina del Rey, CA, 90292 <br/>
 
 ### Biography
 
-I am a Ph.D. student in Computer Science at [University of Southern California](https://usc.edu) (USC), advised by Prof. [Craig Knoblock](http://usc-isi-i2.github.io/knoblock/). Before joining USC in 2016, I earned my B.E. in Computer Science from [HCMC University of Technology](http://www.cse.hcmut.edu.vn/site/en/) (honor program) in 2015.
-
-I am generally interested in machine learning, mainly focusing on techniques for knowledge graph construction. My current research is about semantic modeling for automatically publishing structured data sources to knowledge graphs. More information is available on my [resume](/assets/homepage/resume.pdf).
+Binh Vu is a scientist and an engineer. Binh received his Ph.D. in Computer Science from the [University of Southern California](https://usc.edu) in 2024 (advised by Prof. [Craig Knoblock](http://usc-isi-i2.github.io/knoblock/)) and his Bachelor of Engineering in Computer Science from Ho Chi Minh University of Technology (top 1%, honor program).
+His research focuses on machine learning techniques for knowledge graph construction, especially on methods to understand the semantic description of data sources for automated data integration. Recently, his work centers on semi-supervised approaches for domains with limited labeled data.
+Binh has extensive experience in software engineering and has assumed several tech lead roles in the past. He worked for Rakuten to develop a fraud detection system and interned for Meta to develop an in-house auto machine learning platform. His experience includes software architecture, full-stack development, and large-scale distributed systems. He enjoys designing and optimizing systems to make them more efficient.
+His research and open-source software have been used in several DARPA projects.
 
 ### Projects
 
