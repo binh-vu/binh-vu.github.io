@@ -33,6 +33,10 @@ His research focuses on machine learning techniques for knowledge graph construc
 Binh has extensive experience in software engineering and has assumed several tech lead roles in the past. He worked for Rakuten to develop a fraud detection system and interned for Meta to develop an in-house auto machine learning platform. His experience includes software architecture, full-stack development, and large-scale distributed systems. He enjoys designing and optimizing systems to make them more efficient.
 His research and open-source software have been used in several DARPA projects.
 
+### Publications
+
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbinh-vu.github.io%2Fassets%2Fpublications.bib&jsonp=1"></script>
+
 ### Projects
 
 <style>
