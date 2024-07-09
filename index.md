@@ -30,10 +30,10 @@ Marina del Rey, CA, 90292 <br/>
 
 Binh Vu is a scientist and an engineer. Binh received his Ph.D. in Computer Science from the [University of Southern California](https://usc.edu) in 2024 (advised by Prof. [Craig Knoblock](http://usc-isi-i2.github.io/knoblock/)) and his Bachelor of Engineering in Computer Science from Ho Chi Minh University of Technology (top 1%, honor program).
 His research focuses on machine learning techniques for knowledge graph construction, especially on methods to understand the semantic description of data sources for automated data integration. Recently, his work centers on semi-supervised approaches for domains with limited labeled data.
-Binh has extensive experience in software engineering and has assumed several tech lead roles in the past. He worked for Rakuten to develop a fraud detection system and interned for Meta to develop an in-house auto machine learning platform. His experience includes software architecture, full-stack development, and large-scale distributed systems. He enjoys designing and optimizing systems to make them more efficient.
+Binh has extensive experience in software engineering. He worked for Rakuten to develop a fraud detection system and interned for Meta to develop an in-house auto machine learning platform. His experience includes software architecture, full-stack development, and large-scale distributed systems. He enjoys designing and optimizing systems to make them more efficient.
 His research and open-source software have been used in several DARPA projects.
 
-### Publications
+### Selected Publications
 
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fbinh-vu.github.io%2Fassets%2Fpublications.bib&jsonp=1"></script>
 
@@ -86,7 +86,7 @@ His research and open-source software have been used in several DARPA projects.
 {% endfor %}
 </div>
 
-### Selected Publications
+<!-- ### Selected Publications
 
 {% for paper in site.data.publications %}
 
@@ -95,7 +95,7 @@ His research and open-source software have been used in several DARPA projects.
   {{ paper.published_in }}<br />
   {% for link in paper.extra %}<a href="{{ link.url }}" style="margin-right: 8px;" target="_blank">{{ link.name }}</a>{% endfor %}
 
-{% endfor %}
+{% endfor %} -->
 
 ### Awards
 
