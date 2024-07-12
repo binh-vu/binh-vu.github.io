@@ -35,7 +35,7 @@ His research and open-source software have been used in several DARPA projects.
 
 ### Selected Publications
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbinh-vu.github.io%2Fassets%2Fpublications.bib&jsonp=1"></script>
+<iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fbinh-vu.github.io%2Fassets%2Fpublications.bib"></iframe>
 
 ### Projects
 
