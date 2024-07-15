@@ -20,7 +20,7 @@
     image: /assets/homepage/projects/effect.png
     description: |
       Finding potential vulnerabilities in companies' hardware and software by mining employees' expertise in public online sources.
-  - name: Identity Fraud Detection
+  - name: Large-scale Fraud Detection
     second_name: at Rakuten Group Inc.
     image: /assets/homepage/projects/fraud-detection.png
     description: |
