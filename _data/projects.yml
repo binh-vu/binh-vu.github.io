@@ -1,47 +1,75 @@
-- name: "SAND: A Tool for Creating Semantic Descriptions of Structured Sources"
-  image: /assets/homepage/projects/sand-eswc22.png
-  description: Building semantic descriptions of tables is a vital step in data integration. However, this task is expensive and time-consuming as users often need to examine the table data, its metadata, and ontologies to find the most appropriate description. In this paper, we present SAND, a tool for creating semantic descriptions semi-automatically. SAND makes it easy to integrate with semantic modeling systems to predict or suggest semantic descriptions to the users, as well as to use different knowledge graphs (KGs). Besides its modeling capabilities, SAND is equipped with browsing/querying tools to enable users to explore data in the table and discover how it is often modeled in KGs.
-  links:
-    - name: Paper
-      url: /#sand-eswc22
-    - name: Github
-      url: https://github.com/usc-isi-i2/sand
-- name: A Graph-based Approach for Inferring Semantic Descriptions of Wikipedia Tables
-  description: There are millions of high-quality tables available in Wikipedia. These tables cover many domains and contain useful information. To make use of these tables for data discovery or data integration, we need precise descriptions of the concepts and relationships in the data, known as semantic descriptions. However, creating semantic descriptions is a complex process requiring considerable manual effort and can be error prone. In this paper, we present a novel probabilistic approach for automatically building semantic descriptions of Wikipedia tables. Our approach leverages hyperlinks in a Wikipedia table and existing knowledge in Wikidata to construct a graph of possible relationships in the table and its context, and then it uses collective inference to distinguish genuine and spurious relationships to form the final semantic description. In contrast to existing methods, our solution can handle tables that require complex semantic descriptions of n-ary relations (e.g., the population of a country in a particular year) or implicit contextual values to describe the data accurately. In our empirical evaluation, our approach outperforms state-of-the-art systems on the SemTab2020 dataset and outperforms those systems by as much as 28% in F1 score on a large set of Wikipedia tables.
-  links:
-    - name: Paper
-      url: /#grams-iswc21
-    - name: Github
-      url: https://github.com/usc-isi-i2/grams
-    - name: Video
-      url: http://videolectures.net/iswc2021_4b_wikipedia_tables/
-- name: Dataset Representation Language for Reading Heterogeneous Datasets to RDF or JSON
-  image: /assets/homepage/projects/drepr-kcap19.png
-  descriptions:
-    - Reading public datasets is a laborious task and frequently requires to write custom code because data are often stored in many different formats (CSV, JSON, Spreadsheet, NetCDF, etc) with different layouts (row-based, matrix, hierarchy).
-    - To address the problem, we create D-REPR, a language to represent heterogeneous datasets, and a very efficient D-REPR processor to read the datasets from their own formats to a common representation.
-  links:
-    - name: Paper
-      url: /#drepr-kcap19
-    - name: Github
-      url: https://github.com/usc-isi-i2/d-repr
-- name: Learning Semantic Models of Data Sources Using Probabilistic Graphical Models
-  image: /assets/homepage/projects/sm-www19.png
-  descriptions:
-    - The problem is to automatically build semantic descriptions of data for publishing structured sources to knowledge graphs.
-    - We use beam search to generate possible candidate semantic models and a probabilistic graphical model as a scoring function to guide the search.
-  links:
-    - name: Paper
-      url: /#sm-www19
-    - name: Github
-      url: https://github.com/binh-vu/semantic-modeling
-- name: From Sketches to HTML/CSS Code
-  image: /assets/20190427-sketch2code/demo.gif
-  description: Using Deep Learning to synthesize HTML/CSS programs from mock-up UIs (Course Project)
-  links:
-    - name: Blog Post
-      url: /projects/csci-599/2019/04/27/from-sketches-to-html-css-code.html
-    - name: Github
-      url: https://github.com/binh-vu/sketch2code
-- name: Identifying Potential Company Hardware/Software Vulnerabilities
-  description: Auto-crawling online sources to retrieve expertise of employees of a company, then predicting the software and hardware used in the company. A list of vulnerabilities is obtained by linking the software and hardware to the CVE database.
+- - name: <a href="https://knowledge-computing.github.io/criticalmaas-web/" target="_blank">CriticalMAAS MinMod</a>
+    second_name: "at USC/ISI"
+    image: /assets/homepage/projects/criticalmaas.jpeg
+    description: Critical minerals are essential components in modern technology and the global economy. MinMod uses AI and Machine Learning techniques to extract and create grade/tonnage data from scientific publications, databases, and NI 43-101 reports.
+  - name: <a href="https://usc-isi-i2.github.io/semantic-modeling/" target="_blank">Semantic Modeling</a>
+    second_name: "at USC/ISI"
+    image: /assets/homepage/projects/sm-www19.png
+    description: Automatically building semantic descriptions of data sources for automatic data integration and knowledge graph construction.
+  - name: <a href="https://ai.meta.com/blog/looper-meta-ai-optimization-platform-for-engineers/" target="_blank">Large-scale Feature Selection</a>
+    second_name: with Dr. Igor Markov at Meta
+    image: /assets/homepage/projects/feat_selection.png
+    description: Fast and robust model-free feature selection for Looper, end-to-end AI platform.
+- - name: <a href="http://mint-project.info/" target="_blank">MINT (Model INTegration)</a>
+    second_name: at USC/ISI
+    image: /assets/homepage/projects/mint.png
+    description: |
+      Scientific Model Integration through Knowledge-Rich Data and Process Composition.
+  - name: <a href="https://usc-isi-i2.github.io/effect/" target="_blank">Learning to Predict Cyber Attacks</a>
+    second_name: at USC/ISI
+    image: /assets/homepage/projects/effect.png
+    description: |
+      Finding potential vulnerabilities in companies' hardware and software by mining employees' expertise in public online sources.
+  - name: Identity Fraud Detection
+    second_name: at Rakuten Group Inc.
+    image: /assets/homepage/projects/fraud-detection.png
+    description: |
+      Near real-time distributed streaming system for detecting fraud in ID hijacking and payment within seconds.
+
+# - name: "SAND: A Tool for Creating Semantic Descriptions of Structured Sources"
+#   image: /assets/homepage/projects/sand-eswc22.png
+#   description: Building semantic descriptions of tables is a vital step in data integration. However, this task is expensive and time-consuming as users often need to examine the table data, its metadata, and ontologies to find the most appropriate description. In this paper, we present SAND, a tool for creating semantic descriptions semi-automatically. SAND makes it easy to integrate with semantic modeling systems to predict or suggest semantic descriptions to the users, as well as to use different knowledge graphs (KGs). Besides its modeling capabilities, SAND is equipped with browsing/querying tools to enable users to explore data in the table and discover how it is often modeled in KGs.
+#   links:
+#     - name: Paper
+#       url: /#sand-eswc22
+#     - name: Github
+#       url: https://github.com/usc-isi-i2/sand
+# - name: A Graph-based Approach for Inferring Semantic Descriptions of Wikipedia Tables
+#   description: There are millions of high-quality tables available in Wikipedia. These tables cover many domains and contain useful information. To make use of these tables for data discovery or data integration, we need precise descriptions of the concepts and relationships in the data, known as semantic descriptions. However, creating semantic descriptions is a complex process requiring considerable manual effort and can be error prone. In this paper, we present a novel probabilistic approach for automatically building semantic descriptions of Wikipedia tables. Our approach leverages hyperlinks in a Wikipedia table and existing knowledge in Wikidata to construct a graph of possible relationships in the table and its context, and then it uses collective inference to distinguish genuine and spurious relationships to form the final semantic description. In contrast to existing methods, our solution can handle tables that require complex semantic descriptions of n-ary relations (e.g., the population of a country in a particular year) or implicit contextual values to describe the data accurately. In our empirical evaluation, our approach outperforms state-of-the-art systems on the SemTab2020 dataset and outperforms those systems by as much as 28% in F1 score on a large set of Wikipedia tables.
+#   links:
+#     - name: Paper
+#       url: /#grams-iswc21
+#     - name: Github
+#       url: https://github.com/usc-isi-i2/grams
+#     - name: Video
+#       url: http://videolectures.net/iswc2021_4b_wikipedia_tables/
+# - name: Dataset Representation Language for Reading Heterogeneous Datasets to RDF or JSON
+#   image: /assets/homepage/projects/drepr-kcap19.png
+#   descriptions:
+#     - Reading public datasets is a laborious task and frequently requires to write custom code because data are often stored in many different formats (CSV, JSON, Spreadsheet, NetCDF, etc) with different layouts (row-based, matrix, hierarchy).
+#     - To address the problem, we create D-REPR, a language to represent heterogeneous datasets, and a very efficient D-REPR processor to read the datasets from their own formats to a common representation.
+#   links:
+#     - name: Paper
+#       url: /#drepr-kcap19
+#     - name: Github
+#       url: https://github.com/usc-isi-i2/d-repr
+# - name: Learning Semantic Models of Data Sources Using Probabilistic Graphical Models
+#   image: /assets/homepage/projects/sm-www19.png
+#   descriptions:
+#     - The problem is to automatically build semantic descriptions of data for publishing structured sources to knowledge graphs.
+#     - We use beam search to generate possible candidate semantic models and a probabilistic graphical model as a scoring function to guide the search.
+#   links:
+#     - name: Paper
+#       url: /#sm-www19
+#     - name: Github
+#       url: https://github.com/binh-vu/semantic-modeling
+# - name: From Sketches to HTML/CSS Code
+#   image: /assets/20190427-sketch2code/demo.gif
+#   description: Using Deep Learning to synthesize HTML/CSS programs from mock-up UIs (Course Project)
+#   links:
+#     - name: Blog Post
+#       url: /projects/csci-599/2019/04/27/from-sketches-to-html-css-code.html
+#     - name: Github
+#       url: https://github.com/binh-vu/sketch2code
+# - name: Identifying Potential Company Hardware/Software Vulnerabilities
+#   description: Auto-crawling online sources to retrieve expertise of employees of a company, then predicting the software and hardware used in the company. A list of vulnerabilities is obtained by linking the software and hardware to the CVE database.
