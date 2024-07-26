@@ -48,7 +48,7 @@ Marina del Rey, CA, 90292 <br/>
 
 <p style="text-align: justify">
 Binh Vu is a scientist and an engineer. Binh received his Ph.D. in Computer Science from the <a href="https://usc.edu">University of Southern California</a> in 2024 (advised by Prof. <a href="http://usc-isi-i2.github.io/knoblock/">Craig Knoblock</a>) and his Bachelor of Engineering in Computer Science from <a href="https://hcmut.edu.vn/en">Ho Chi Minh University of Technology</a> (top 1%, honor program).
-His research focuses on machine learning techniques for knowledge graph construction, especially on methods to understand the semantic description of data sources for automated data integration. Recently, his work centers on semi-supervised approaches for domains with limited labeled data leveraging pretrained large language models.
+His research focuses on machine learning techniques for knowledge graph construction, especially on methods to understand the semantic description of data sources for automated data integration. Recently, his work centers on semi-supervised approaches for domains with limited labeled data by leveraging pretrained large language models.
 Binh also has extensive experience in software engineering. He worked for Rakuten to develop a fraud detection system and interned for Meta to develop an in-house automated machine learning platform. His experience includes software architecture, full-stack development, and large-scale distributed systems. He enjoys designing and optimizing systems to make them more efficient.
 His research and open-source software have been used in several real-world projects.
 </p>
