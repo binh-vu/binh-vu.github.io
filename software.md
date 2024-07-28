@@ -2,29 +2,7 @@
 layout: default-container
 ---
 
-<div class="row mb-3">
-  <div class="col-md-3">
-    <img src="/assets/homepage/profile.jpg" class="rounded float-left img-fluid" style="border: #ddd solid 1px" />
-  </div>
-  <div class="col-md">
-    <p>
-        <b>Ph.D. in Computer Science</b> <br/>
-        Office ISI 1038 <br />
-        Information Sciences Institute (ISI),
-        University of Southern California <br/>
-4676 Admiralty Way,
-Marina del Rey, CA, 90292 <br/>
-        <b>Email</b>: <a href="mailto:binhlvu@usc.edu">binhlvu@usc.edu</a> or <a href="mailto:binhvu@isi.edu">binhvu@isi.edu</a>
-        <br />
-        <b><a href="/assets/homepage/Resume_240713_v3.pdf">Resume</a></b>
-        <br/>
-        <span style="line-height:1.3em; font-size: 1.3em">
-        <a href="https://github.com/binh-vu"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/binh-v-3828a16a/"><i class="fab fa-linkedin"></i></a>
-        </span>
-    </p>
-  </div>
-</div>
+{% include info.html %}
 
 ### Software
 
@@ -38,6 +16,8 @@ Marina del Rey, CA, 90292 <br/>
     border-top: none !important;
 }
 </style>
+
+Below is a list of some software that I developed over the years.
 
 <div id="project-lst">
 {% for software in site.data.software %}
