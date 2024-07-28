@@ -64,24 +64,47 @@ His research and open-source software have been used in several real-world proje
     <div class="col-sm">
       <div class="card">  
         <ul class="list-group list-group-flush">
-          <li class="list-group-item" style="text-align: center">
-            <h5 class="card-title">{{project.name}}</h5>
-            {% if project.second_name %}
-            <h6 class="card-subtitle mb-2 text-muted">{{project.second_name}}</h6>
-            {% endif %}
-            {% if project.image %}
-            <img src="{{ project.image }}" alt="Project iamge" style="width: 70%; border-radius: 10px;" />
-            {% endif %}
+          <li class="list-group-item">
+            <div style="text-align: right">
+              {% if project.status == "Completed" %}
+                <small class="badge rounded-pill text-bg-success">{{ project.status }}</small>
+              {% else %}
+                <small class="badge rounded-pill text-bg-primary">{{ project.status }}</small>
+              {% endif %}
+            </div>
+            <div style="text-align: center">
+              <h5 class="card-title">{{project.name}}</h5>
+              {% if project.second_name %}
+              <h6 class="card-subtitle mb-2 text-muted">{{project.second_name}}</h6>
+              {% endif %}
+              {% if project.image %}
+              <img src="{{ project.image }}" alt="Project iamge" style="width: 70%; border-radius: 10px;" />
+              {% endif %}
+            </div>
           </li>
           <li class="list-group-item">
             <div class="project-description text-muted">
               {{ project.description }}
             </div>
           </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-md-auto">{{ project.date }}</div>
+              <div class="col text-end">
+                {% for skill in project.secondary_skills %}
+                <span class="badge rounded-pill text-bg-secondary">{{ skill }}</span>
+                {% endfor %}
+                {% for skill in project.skills %}
+                <span class="badge rounded-pill text-bg-dark">{{ skill }}</span>
+                {% endfor %}
+              </div>
+            </div>
+          </li>
           </ul>
       </div>
     </div>
     {% endfor %}
+
   </div>
 
 {% endfor %}

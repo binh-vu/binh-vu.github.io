@@ -2,30 +2,87 @@
     second_name: "at USC/ISI"
     image: /assets/homepage/projects/criticalmaas.jpeg
     description: Critical minerals are essential components in modern technology and the global economy. MinMod uses AI and Machine Learning techniques to extract and create grade/tonnage data from scientific publications, databases, and NI 43-101 reports.
-  - name: <a href="https://usc-isi-i2.github.io/semantic-modeling/" target="_blank">Semantic Modeling</a>
+    date: 2023-24
+    status: Ongoing
+    secondary_skills:
+      - Python
+    skills:
+      - Pytorch
+      - Knowledge Graphs
+      - Machine Learning
+      - NLP
+  - name: <a href="https://usc-isi-i2.github.io/semantic-modeling/" target="_blank">Table Understanding</a>
     second_name: "at USC/ISI"
     image: /assets/homepage/projects/sm-www19.png
-    description: Automatically building semantic descriptions of data sources for automatic data integration and knowledge graph construction.
+    description: |
+      Generating semantic descriptions of data sources for automatic data integration and knowledge graph construction.
+    date: 2018-24
+    status: Completed
+    secondary_skills:
+      - Python
+      - Rust
+      - Scala
+    skills:
+      - Pytorch
+      - Knowledge Graphs
+      - NLP
+      - Deep Learning
+      - Language Models
   - name: <a href="https://ai.meta.com/blog/looper-meta-ai-optimization-platform-for-engineers/" target="_blank">Large-scale Feature Selection</a>
     second_name: with Dr. Igor Markov at Meta
     image: /assets/homepage/projects/feat_selection.png
-    description: Fast and robust model-free feature selection for Looper, end-to-end AI platform.
+    description: Fast and robust model-free feature selection (mRMR) for Looper, an end-to-end AI platform.
+    status: Completed
+    date: 2021
+    secondary_skills:
+      - Python
+    skills:
+      - Feature Selection
+      - Machine Learning
+      - Deep Learning
+      - Presto
+      - Hive
 - - name: <a href="http://mint-project.info/" target="_blank">MINT (Model INTegration)</a>
     second_name: at USC/ISI
     image: /assets/homepage/projects/mint.png
+    status: Completed
     description: |
       Scientific Model Integration through Knowledge-Rich Data and Process Composition.
+    date: 2019-21
+    secondary_skills:
+      - Python
+      - R
+    skills:
+      - Semantic Web
+      - Ontology
   - name: <a href="https://usc-isi-i2.github.io/effect/" target="_blank">Learning to Predict Cyber Attacks</a>
     second_name: at USC/ISI
     image: /assets/homepage/projects/effect.png
+    status: Completed
     description: |
       Finding potential vulnerabilities in companies' hardware and software by mining employees' expertise in public online sources.
+    date: 2016-17
+    secondary_skills:
+      - Python
+      - Java
+    skills:
+      - Web Crawler
+      - Machine Learning
+      - Entity Linking
   - name: Large-scale Fraud Detection
     second_name: at Rakuten Group Inc.
+    status: Completed
     image: /assets/homepage/projects/fraud-detection.png
     description: |
       Near real-time distributed streaming system for detecting fraud in ID hijacking and payment within seconds.
-
+    date: 2015-16
+    secondary_skills:
+      - Java
+    skills:
+      - Cassandra
+      - Apache Storm
+      - Kafka
+      - Distributed Computing
 # - name: "SAND: A Tool for Creating Semantic Descriptions of Structured Sources"
 #   image: /assets/homepage/projects/sand-eswc22.png
 #   description: Building semantic descriptions of tables is a vital step in data integration. However, this task is expensive and time-consuming as users often need to examine the table data, its metadata, and ontologies to find the most appropriate description. In this paper, we present SAND, a tool for creating semantic descriptions semi-automatically. SAND makes it easy to integrate with semantic modeling systems to predict or suggest semantic descriptions to the users, as well as to use different knowledge graphs (KGs). Besides its modeling capabilities, SAND is equipped with browsing/querying tools to enable users to explore data in the table and discover how it is often modeled in KGs.
