@@ -47,8 +47,8 @@
     image: /assets/homepage/projects/mint.png
     status: Completed
     description: |
-      Scientific Model Integration through Knowledge-Rich Data and Process Composition. Developing a data catalog that supports querying heterogeneous datasets and semi-automated data transformation.
-    date: 2019-21
+      Scientific Model Integration through Knowledge-Rich Data and Process Composition. Developing a data catalog that supports querying TBs of heterogeneous data from separate disciplines (geosciences) and semi-automated data transformation.
+    date: 2018-20
     secondary_skills:
       - Python
       - R
