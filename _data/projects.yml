@@ -1,4 +1,4 @@
-- - name: <a href="https://knowledge-computing.github.io/criticalmaas-web/" target="_blank">CriticalMAAS MinMod</a>
+- - name: <a href="https://minmod.isi.edu/" target="_blank">CriticalMAAS MinMod</a>
     second_name: "at USC/ISI"
     image: /assets/homepage/projects/criticalmaas.jpeg
     description: Critical minerals are essential components in modern technology and the global economy. MinMod uses AI and Machine Learning techniques to extract and create grade/tonnage data from scientific publications, databases, and NI 43-101 reports.
