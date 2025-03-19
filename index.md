@@ -31,6 +31,8 @@ Binh also has extensive experience in software engineering. He worked for Rakute
 His research and open-source <a href="/software">software</a> have been used in several real-world projects.
 </p>
 
+<a href="https://github.com/binh-vu" class="gh-contributions" data-gh-username="binh-vu" target="_blank">binh-vu's contributions</a><script src="https://ikuwow.github.io/yourcontributions/widget.min.js"></script>
+
 ### Projects
 
 <div id="project-lst">
