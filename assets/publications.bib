@@ -139,6 +139,13 @@
   url_paper = {https://usc-isi-i2.github.io/papers/shbita24-geold_ewsc.pdf}
 }
 
+@misc{vu2024results,
+  title     = {Results of GRAMS+ at SemTab 2024},
+  author    = {Vu, Binh and Knoblock, C and Lin, Fandel},
+  year      = {2024},
+  publisher = {SemTab}
+}
+
 @inproceedings{vu2024,
   title        = {Exploiting Distant Supervision to Learn Semantic Descriptions of Tables with Overlapping Data},
   author       = {Vu, Binh and Knoblock, Craig A and Shbita, Basel and Lin, Fandel},
@@ -167,6 +174,31 @@
   url_paper = {https://dl.acm.org/doi/pdf/10.1145/3678717.3700829}
 }
 
+@inproceedings{10.1145/3701716.3718325,
+  author    = {Shbita, Basel and Vu, Binh and Lin, Fandel and Knoblock, Craig A.},
+  title     = {Embedding Spatial and Semantic Contexts for Geo-Entity Typing in Smart City Applications},
+  year      = {2025},
+  isbn      = {9798400713316},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3701716.3718325},
+  doi       = {10.1145/3701716.3718325},
+  abstract  = {Geospatial data are critical for urban planning and smart city applications, yet understanding and classifying geo-entities in diverse datasets remains challenging. Accurate representation and classification of geo-entities are essential for tasks such as geo-entity typing and linking, enabling better map understanding and informed decision-making. This paper presents a self-supervised learning approach to classify geo-entities by embedding their geometric, spatial, and semantic neighborhood contexts, creating robust representations for geo-entity typing. Using OpenStreetMap (OSM) data, our method links geo-referenced entities to Wikidata classes and OSM tags with high performance, achieving an F1 score of approximately 0.85. Beyond the technical contribution, our method addresses Responsible AI challenges, including transparency, and data standardization on the Web, aligning with sustainable smart city development.},
+  booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+  pages     = {1724–1732},
+  numpages  = {9},
+  keywords  = {digital twin, geospatial data integration, open data, representation learning, semantic typing, smart cities, web technologies},
+  location  = {Sydney NSW, Australia},
+  series    = {WWW '25}
+}
+
+@inproceedings{knoblock2025demonstrating,
+  title     = {Demonstrating MinMod: A Large-scale Knowledge Graph of Historical Mining Data},
+  author    = {Knoblock, Craig A and Vu, Binh and Shbita, Basel and Krishna, Pothula Punith and Sharma, Namrata},
+  booktitle = {International Semantic Web Conference},
+  year      = {2025}
+}
+
 @inproceedings{minmod2025,
   title        = {Exploiting LLMs and Semantic Technologies to Build a Knowledge Graph of Historical Mining Data},
   author       = {Knoblock, Craig A and Vu, Binh and Shbita, Basel and Chang, Yao-Yi and Lin, Xiao and Muric, Goran and Krishna, Pothula and Pyo, Jiyoon and Trejo-Sheu, Adriana and Ye, Meng},
@@ -181,4 +213,40 @@
   booktitle    = {The Semantic Web--ISWC 2025: 24th International Semantic Web Conference, ISWC 2025, November 2--6, 2025, Proceedings 20},
   year         = {2025},
   organization = {Springer International Publishing}
+}
+
+@inproceedings{10.1145/3748636.3763209,
+  author    = {Lin, Fandel and Knoblock, Craig A. and Vu, Binh and Chiang, Yao-Yi},
+  title     = {Exploiting Polygon Metadata to Recolor Historical Maps},
+  year      = {2025},
+  isbn      = {9798400720864},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3748636.3763209},
+  doi       = {10.1145/3748636.3763209},
+  abstract  = {Historical maps often suffer from coloring errors caused by artifacts during map production or scanning. These errors result in color mismatches between important map features (e.g., polygon layers) and their corresponding map keys, which hinders both human interpretation and automated feature extraction. This paper targets the problem of automatically correcting polygon coloring errors in historical maps using only in-map information, such as the map keys. The challenge lies in the diverse visual representations of map keys and variations in coloring errors, which differ significantly both within and across maps. We propose a machine-learning model that automatically identifies and corrects color inconsistencies between map polygon layers and their visual appearances defined by the map keys on the same map. Our approach leverages polygon metadata, such as map keys describing the visual and semantic properties of each polygon on maps, to detect mismatches in color histograms and representations and recolor the incorrect areas in the map content accordingly. We evaluate our approach on USGS geological maps; it outperforms comparative methods by at least 7.5\%. In addition, our approach improves the downstream automated polygon-extraction task by 18.0\% in precision.},
+  booktitle = {Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems},
+  pages     = {1122–1125},
+  numpages  = {4},
+  keywords  = {historical map, map recoloring, image processing},
+  location  = {The Graduate Hotel Minneapolis, Minneapolis, MN, USA},
+  series    = {SIGSPATIAL '25}
+}
+
+@inproceedings{10.1145/3748636.3763210,
+  author    = {Lin, Fandel and Knoblock, Craig A. and Vu, Binh and Shbita, Basel and Chiang, Yao-Yi},
+  title     = {Exploiting Polygon Metadata to Colorize Draft Maps},
+  year      = {2025},
+  isbn      = {9798400720864},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3748636.3763210},
+  doi       = {10.1145/3748636.3763210},
+  abstract  = {Black-and-white draft geological maps, produced during fieldwork, often contain dense handwritten annotations overlaid on monochromatic contour basemaps. Although interpretable in grayscale, the lack of color makes it difficult to visually distinguish overlapping or adjacent geological units, especially when boundaries are unclear and annotation styles vary. However, colorizing these draft maps is labor-intensive but essential, as they may be the only source of detailed geological information for certain regions. This hinders both human interpretation and downstream tasks such as map digitization and critical mineral resource assessment. We target the problem of automated colorization of draft geological maps. The challenge lies in interpreting noisy visual cues from uncolored sketches and assigning appropriate colors according to their geological categories. We propose a novel machine learning approach that exploits polygon metadata, including map keys that explicitly define geological units and implicitly suggest their intended colors, along with the semantic interpretation of the sketch content in the maps, to assign colors to the draft maps accordingly. We evaluate our method on USGS draft geological maps; it outperforms comparative methods by 15.7\%. In addition, our approach improves downstream polygon-extraction performance by 9\% in F1 score.},
+  booktitle = {Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems},
+  pages     = {1126–1129},
+  numpages  = {4},
+  keywords  = {geological map, sketch colorization, image processing},
+  location  = {The Graduate Hotel Minneapolis, Minneapolis, MN, USA},
+  series    = {SIGSPATIAL '25}
 }
